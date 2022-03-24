@@ -1,38 +1,142 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+nav{
+  background-color: #10002b;
+  box-shadow: 1px 1px 5px #070707;
+}
+
+body{
+  background-color:#e0aaff!important;
+}
+
+.main-footer {
   text-align: center;
+  padding: 5px;
+  background-color: #10002b;
+  color: white;
+  position: "fixed";
+  bottom:0;
+  left:0;
+  margin-bottom: 0;
+  height:auto;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-banner{
+  background-color: aliceblue;
+  background-image: url("../public/images/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+  height: 450px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  line-height: 2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.pg-form {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  height: 500px;
+  width: 100%;
+}
+
+.main-button {
+  background-color: #06ad06; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.main-button1 {
+  margin-top: 5%;
+  border-radius: 50px;
+  width: 300px;
+  box-shadow: 0px 0px 8px #070707;
+  background-color: #10002b;
+  opacity: 80%;
+}
+
+.main-button1:hover {
+  background-color: #06ad06;
+  opacity: 80%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row{
+  position: relative;
+  width: auto;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-fluid{
+  margin-right: 10%;
+  margin-left:  10%;
+}
+
+.navbar-nav{
+  color: aquamarine;
+  font: bolder;
+}
+
+.collapse{
+  padding: 15px;
+}
+
+.card-img-top{
+  width:100%;
+  height: 265px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.p-footer{
+  font-size: 14px;
+  text-align: left;
+  color: #9d4edd;
+  font-weight:bold;
+  margin-left: 30px;
+  letter-spacing: 1.2px;
+}
+
+.a-footer{
+  color: #a9a9a9;
+  text-decoration: none
+
+}
+
+.a-footer:hover{
+  color: #06ad06;
+}
+
+.main-font{
+  font-family: 'Sofia', sans-serif;
+  font-size: 20pt;
+  color:#9d4edd;
 }
