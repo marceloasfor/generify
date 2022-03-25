@@ -10,8 +10,8 @@ const Navbar = () => {
         <img 
           src={logo}
           style={{
-            width: "40px", 
-            height: "40px",
+            width: "50px", 
+            height: "auto",
             paddingRight: "10px"
           }}
           alt="Generify Music Logo"/>
